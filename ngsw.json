@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1700105698573,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.b2e39a87cc1e403b.js",
+        "/manifest.webmanifest",
+        "/polyfills.f2ea739548a417d2.js",
+        "/runtime.85ffa66e07691f24.js",
+        "/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/crm-icon-with-people-vector.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/crm-icon-with-people-vector.jpg": "8ac2711ee102ea0e259873a27ed0b50e97dddf77",
+    "/assets/icons/icon-128x128.png": "f1b6c9c3d70dbdda6b42a95a9a418f6ffaf8d498",
+    "/assets/icons/icon-144x144.png": "320f0691c29af6598780490349135d27398e7002",
+    "/assets/icons/icon-152x152.png": "1c170e91d02c8a06d9bfbfa673b11694ad6a5606",
+    "/assets/icons/icon-192x192.png": "302eeeeb08bf87b4af5e787270086b600d159f0f",
+    "/assets/icons/icon-384x384.png": "d1fbf88abed740f2a4237f8ac5c6b21ce13e3ff0",
+    "/assets/icons/icon-512x512.png": "b5b1dc2dd24469e2c923eb011f5e8683e6857289",
+    "/assets/icons/icon-72x72.png": "efa0c4c8ba486fd2ec56a0020f4445c44e5393b2",
+    "/assets/icons/icon-96x96.png": "9db84e6f313bbf2cb97eacf3630d4fcd4a9b6151",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "eb3df7d342f3ec87c840e577894c5690739da5e8",
+    "/main.b2e39a87cc1e403b.js": "3034c4205762a36ef7b91aff01c6c3d559cf2aaf",
+    "/manifest.webmanifest": "e68aa2b254c283bf21b1d13eceadeeca1ac7fa00",
+    "/polyfills.f2ea739548a417d2.js": "781fa11abffc1df90a8d497255f2496d262d67e8",
+    "/runtime.85ffa66e07691f24.js": "d92252a5d8ccdb64af7a9e96c353b0ae9dc1d877",
+    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
